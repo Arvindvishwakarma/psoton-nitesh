@@ -36,6 +36,18 @@
     <link rel="stylesheet" href="{{ asset('affiliate/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css')}}" />
     <link rel="stylesheet" href="{{ asset('affiliate/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css')}}" />
 
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
     <!-- Page CSS -->
 
     <link rel="stylesheet" href="{{ asset('affiliate/assets/vendor/css/pages/app-logistics-dashboard.css')}}" />
@@ -45,4 +57,7 @@
 
     <script src="{{ asset('affiliate/assets/js/config.js')}}"></script>
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+    
+
   </head>

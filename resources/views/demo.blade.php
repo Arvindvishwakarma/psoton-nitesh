@@ -1,14 +1,27 @@
-@extends('admin.layout.admin_master')
-@push('css')
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<link rel="stylesheet" href="{{asset('css/style.css')}}" />
-<link rel="stylesheet" href="{{asset('css/index.css')}}" />
-@endpush
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-@push('title')
-  Home
-@endpush
-@section('content')
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>POSTON.io | API channels</title>
+  </head>
+  <body>
     <div class="container-fluid px-lg-5 py-4">
       <div class="strip d-flex align-items-center">
         <h4 class="text-secondary">API channels</h4>
@@ -593,4 +606,10 @@
       <p class="text-secondary m-0 p-0 mt-4">2023 © POSTON.io</p>
     </div>
 
-    @endsection
+    <scripts
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

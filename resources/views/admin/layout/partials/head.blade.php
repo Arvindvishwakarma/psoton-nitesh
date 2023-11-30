@@ -4,7 +4,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Dashboard - eCommerce | Vuexy - Bootstrap Admin Template</title>
+    <title>@stack('title')</title>
 
     <meta name="description" content="" />
 
@@ -27,6 +27,14 @@
     <link rel="stylesheet" href="{{ asset('admin/assets/vendor/css/rtl/core.css')}}" class="template-customizer-core-css" />
     <link rel="stylesheet" href="{{ asset('admin/assets/vendor/css/rtl/theme-default.css')}}" class="template-customizer-theme-css" />
     <link rel="stylesheet" href="{{ asset('admin/assets/css/demo.css')}}" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+
+    @stack('css')
 
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="{{ asset('admin/assets/vendor/libs/node-waves/node-waves.css')}}" />

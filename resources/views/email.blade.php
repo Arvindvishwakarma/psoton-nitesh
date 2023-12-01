@@ -1,9 +1,4 @@
 @extends('admin.layout.admin_master')
-@push('css')
-
-<link rel="stylesheet" href="{{asset('css/style.css')}}" />
-<link rel="stylesheet" href="{{asset('css/index.css')}}" />
-@endpush
 
 @push('title')
   Email

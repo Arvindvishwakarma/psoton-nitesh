@@ -3,7 +3,8 @@
 
 <link rel="stylesheet" href="{{asset('css/style.css')}}" />
 <link rel="stylesheet" href="{{asset('css/index.css')}}" />
-@endpush
+<link rel="stylesheet" href="{{asset('css/account.css')}}" />
+@endpushs
 
 @push('title')
   Account
